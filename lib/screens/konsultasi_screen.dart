@@ -10,7 +10,7 @@ class KonsultasiScreen extends StatelessWidget {
     return Scaffold(
       // AppBar dengan tombol kembali manual
       appBar: AppBar(
-        title: const Text("Catatan"),
+        title: const Text("Konsultasi"),
         backgroundColor: const Color(0xFF1A3A6F),
         foregroundColor: Colors.white,
         leading: IconButton(
