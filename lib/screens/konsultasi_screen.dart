@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:kidscare/screens/home_screens.dart';
 
 /// Widget untuk halaman Catatan Kesehatan
-class CatatanScreen extends StatelessWidget {
-  const CatatanScreen({super.key});
+class KonsultasiScreen extends StatelessWidget {
+  const KonsultasiScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

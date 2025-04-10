@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:kidscare/screens/tanya_ai_screen.dart';
 import 'package:kidscare/screens/artikel_screen.dart';
-import 'package:kidscare/screens/catatan_screen.dart';
+import 'package:kidscare/screens/konsultasi_screen.dart';
 import 'package:kidscare/screens/profil_screen.dart';
 
 // Widget utama untuk tampilan Home Screen aplikasi
@@ -141,7 +141,7 @@ class HomeScreens extends StatelessWidget {
               destination = const HomeScreens(); // Beranda
               break;
             case 1:
-              destination = const CatatanScreen(); // Catatan
+              destination = const KonsultasiScreen(); // Konsultasi
               break;
             case 2:
               destination = const TanyaAIScreen(); // TanyaAI
