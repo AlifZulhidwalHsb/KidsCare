@@ -25,10 +25,10 @@ class KonsultasiScreen extends StatelessWidget {
         ),
       ),
 
-      // Isi utama dari halaman Catatan
+      // Isi utama dari halaman Konsultasi
       body: const Center(
         child: Text(
-          "Ini halaman Catatan",
+          "Ini halaman Konsultasi",
           style: TextStyle(fontSize: 20),
         ),
       ),
